@@ -1,0 +1,6 @@
+# Only shared workflow files belong in this repository.
+/*
+!/AGENTS.md
+!/README.md
+!/.gitignore
+!/.agents/
