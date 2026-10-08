@@ -4,3 +4,19 @@
 !/README.md
 !/.gitignore
 !/.agents/
+
+# Never commit secrets, local settings, generated output, or captures.
+.env
+.env.*
+!.env.example
+.codex/
+node_modules/
+.next/
+dist/
+build/
+coverage/
+*.log
+.DS_Store
+screenshots/
+playwright-report/
+test-results/
